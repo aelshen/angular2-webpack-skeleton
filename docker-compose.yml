@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  angular2-webpack-skeleton:
+    container_name: angular2-webpack-skeleton
+    image: angular2-webpack-skeleton
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
